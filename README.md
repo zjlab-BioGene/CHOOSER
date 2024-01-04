@@ -15,6 +15,7 @@ A comprehensive computational framework, CHOOSER (**C**as **HO**mlog **O**bservi
 
 02_Cas12_SelfProcessing [colab_notebook](https://colab.research.google.com/drive/1D5_Qffq-EUZYQk_tTKMftCv9wvxSh2Kz?usp=sharing)
 
+## Model weights & example data
 
 *Note: before running the notebooks, please ensure that you have to save/add the following folders into your Google Drive ("MyDrive" folder):
 
