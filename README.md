@@ -1,6 +1,8 @@
 # CHOOSER
 A comprehensive computational framework, CHOOSER (**C**as **HO**mlog **O**bserving and **SE**lf-processing sc**R**eening) for CRISPR-Cas homologues discovery and self-processing-pre-crRNA functional screening by foundation models.
 
+![Schematic diagram of the CHOOSER pipeline for identifying and functional screening of CRISPR-Cas systems with self-processing pre-crRNA capability](Figure_1.png)
+
 ## Authors
 
 | Author | Email |
@@ -22,3 +24,7 @@ A comprehensive computational framework, CHOOSER (**C**as **HO**mlog **O**bservi
 - [model](https://drive.google.com/drive/folders/1y4WKwsoBsqBb_R2Cdj0cwYiLIPnBXj01?usp=sharing)
 
 - [inputs](https://drive.google.com/drive/folders/18GGlIEWYtJVTn2oBXMqbghyYQCLKelLg?usp=sharing)
+
+## Contacts
+
+liwh@zhejianglab.com, liwh@tongji.edu.cn
