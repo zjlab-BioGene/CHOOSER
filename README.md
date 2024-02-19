@@ -3,14 +3,6 @@ A comprehensive computational framework, CHOOSER (**C**as **HO**mlog **O**bservi
 
 ![Schematic diagram of the CHOOSER pipeline for identifying and functional screening of CRISPR-Cas systems with self-processing pre-crRNA capability](Figure_1.png)
 
-## Authors
-
-| Author | Email |
-| ------ | ----- |
-| Wenhui Li | liwh@zhejianglab.com, liwh@tongji.edu.cn |
-| Liya Hou | houliya@zhejianglab.com |
-| Yongqian Li | liyongqian@gmail.com |
-
 ## Colab Notebook
 
 01_CasDiscovery [colab_notebook](https://colab.research.google.com/drive/1oxa1YrmgCe5ok7GwWCuHwGoZ1M_Otikr?usp=sharing)
@@ -27,4 +19,4 @@ A comprehensive computational framework, CHOOSER (**C**as **HO**mlog **O**bservi
 
 ## Contacts
 
-liwh@zhejianglab.com, liwh@tongji.edu.cn
+qiliu@tongji.edu.cn, liwh@zhejianglab.com, liwh@tongji.edu.cn
