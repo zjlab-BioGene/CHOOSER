@@ -14,6 +14,10 @@ This repository hosts the custom code of **CHOOSER** (**C**as **HO**mlog **O**bs
 
 - [inputs](https://drive.google.com/drive/folders/18GGlIEWYtJVTn2oBXMqbghyYQCLKelLg?usp=sharing)
 
+- [data](https://drive.google.com/drive/folders/1WcClm_TebUuuRY_b8i6n6EuEXdR_WhT2?usp=sharing)
+
+- [ccminer](https://drive.google.com/drive/folders/1uPjufxWPjEmx2yDota60qVl05dugS0OS?usp=sharing)
+
 ## Environment
 
 CHOOSER is run on Python 3.9 and PyTorch 1.13.1. You can build a conda environment for CHOOSER using this [script](https://github.com/zjlab-BioGene/CHOOSER/blob/main/env/env_install.sh).
