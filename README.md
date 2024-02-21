@@ -8,7 +8,7 @@ This repository hosts the custom code of **CHOOSER** (**C**as **HO**mlog **O**bs
 
 ## Model weights & example data
 
-*Note: before running the notebooks, please ensure that you have to save/add the following folders into your Google Drive ("MyDrive" folder):
+*Note: before running the notebooks on Colab, please ensure that you have to save/add the following folders into your Google Drive ("MyDrive" folder):
 
 - [model](https://drive.google.com/drive/folders/1y4WKwsoBsqBb_R2Cdj0cwYiLIPnBXj01?usp=sharing)
 
@@ -18,11 +18,32 @@ This repository hosts the custom code of **CHOOSER** (**C**as **HO**mlog **O**bs
 
 ### Step.1 Cas homolog discovery
 
-Firstly, run our bioinformatic pipeline
+Firstly, install and run our bioinformatic pipeline [CRISPRCasMiner](https://github.com/zjlab-BioGene/CRISPRCasMiner) to fetch the suspected proteins around the CRISPR arrays [colab_notebook](https://colab.research.google.com/drive/1PYo_vFefUnPWgFLQ5q3Oxu2pTtx9BvzY?usp=sharing):
+
+```
+## Run cctyper and prodigal
+cctyper example/input_test.fna output/01_cctyper \
+    --db data \
+    --prodigal meta \
+    --keep_tmp
+
+## Run CRISPRCasMiner
+python ccminer/ccminer.py example/input_test.fna output/02_ccminer \
+    --cctyper_path output/01_cctyper \
+    --database_name my_project_name \
+    --name my_sample_name \
+    --db data \
+    --prodigal meta \
+    --span 10 \
+    --keep_tmp
+```
+
+Secondly, 
 
 01_CasDiscovery [colab_notebook](https://colab.research.google.com/drive/1oxa1YrmgCe5ok7GwWCuHwGoZ1M_Otikr?usp=sharing)
 
 `Input`: suspicious proteins in .fasta/.faa format.
+
 `Output`: predicted tags of the proteins, including `cas9`, `cas12`, `cas13` and `other`.
 
 
