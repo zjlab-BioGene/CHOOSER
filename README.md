@@ -22,7 +22,7 @@ CHOOSER is run on Python 3.9 and PyTorch 1.13.1. You can build a conda environme
 
 ### Step.1 Get suspected proteins near CRISPR arrays
 
-Install and run our bioinformatic pipeline [CRISPRCasMiner](https://github.com/zjlab-BioGene/CRISPRCasMiner) to fetch the suspected proteins around the CRISPR arrays. Custom code is provided [01_Get_Suspected_Proteins_near_CRISPR.ipynb](https://github.com/zjlab-BioGene/CHOOSER/blob/main/01_Get_Suspected_Proteins_near_CRISPR.ipynb), or you can run on Colab notebook [colab_notebook](https://colab.research.google.com/drive/1PYo_vFefUnPWgFLQ5q3Oxu2pTtx9BvzY?usp=sharing):
+Install and run our bioinformatic pipeline [CRISPRCasMiner](https://github.com/zjlab-BioGene/CRISPRCasMiner) to fetch the suspected proteins around the CRISPR arrays. Custom code is provided here: [01_Get_Suspected_Proteins_near_CRISPR.ipynb](https://github.com/zjlab-BioGene/CHOOSER/blob/main/01_Get_Suspected_Proteins_near_CRISPR.ipynb), or you can run on Colab notebook: [colab_notebook](https://colab.research.google.com/drive/1PYo_vFefUnPWgFLQ5q3Oxu2pTtx9BvzY?usp=sharing):
 
 `Input`: Metagenome-assembled genomes/contigs.
 
@@ -30,7 +30,7 @@ Install and run our bioinformatic pipeline [CRISPRCasMiner](https://github.com/z
 
 ### Step.2 Cas homolog discovery
 
-Run CHOOSER to discern Cas homologs: [02_CasDiscovery.colab.ipynb](https://github.com/zjlab-BioGene/CHOOSER/blob/main/02_CasDiscovery.colab.ipynb), or you can run on Colab notebook [colab_notebook](https://colab.research.google.com/drive/1oxa1YrmgCe5ok7GwWCuHwGoZ1M_Otikr?usp=sharing)
+Run CHOOSER to discern Cas homologs: [02_CasDiscovery.colab.ipynb](https://github.com/zjlab-BioGene/CHOOSER/blob/main/02_CasDiscovery.colab.ipynb), or you can run on Colab notebook: [colab_notebook](https://colab.research.google.com/drive/1oxa1YrmgCe5ok7GwWCuHwGoZ1M_Otikr?usp=sharing)
 
 `Input`: suspicious proteins in .fasta/.faa format.
 
@@ -38,7 +38,7 @@ Run CHOOSER to discern Cas homologs: [02_CasDiscovery.colab.ipynb](https://githu
 
 ### Step.3 Pre-crRNA self-processing functional screening of Cas12 homologs 
 
-For the Cas12 candidates, we predicted whether they are able to self-process pre-crRNA or not: [03_Cas12_SelfProcessing.ipynb](https://github.com/zjlab-BioGene/CHOOSER/blob/main/03_Cas12_SelfProcessing.ipynb), or you can run on Colab notebook [colab_notebook](https://colab.research.google.com/drive/1D5_Qffq-EUZYQk_tTKMftCv9wvxSh2Kz?usp=sharing)
+For the Cas12 candidates, we predicted whether they are able to self-process pre-crRNA or not: [03_Cas12_SelfProcessing.ipynb](https://github.com/zjlab-BioGene/CHOOSER/blob/main/03_Cas12_SelfProcessing.ipynb), or you can run on Colab notebook: [colab_notebook](https://colab.research.google.com/drive/1D5_Qffq-EUZYQk_tTKMftCv9wvxSh2Kz?usp=sharing)
 
 `Input`: Cas12 proteins in .fasta/.faa format.
 
