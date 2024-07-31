@@ -52,12 +52,7 @@ For the Cas12 candidates, we predicted whether they are able to self-process pre
 
 | DataBase | DataSet | Download URL |
 | - | - | - |
-| MGnify | mgnify_human_gut  
-mgnify_human_oral  
-mgnify_cow_rumen  
-mgnify_pig_gut  
-mgnify_fish_gut  
-mgnify_marine | https://www.ebi.ac.uk/metagenomics/browse/genomes |
+| MGnify | mgnify_human_gut<br>mgnify_human_oral<br>mgnify_cow_rumen<br>mgnify_pig_gut<br>mgnify_fish_gut<br>mgnify_marine | https://www.ebi.ac.uk/metagenomics/browse/genomes |
 
 
 ## Contacts
