@@ -50,10 +50,18 @@ For the Cas12 candidates, we predicted whether they are able to self-process pre
 
 ## Datasource
 
-| DataBase | DataSet | Download URL |
-| - | - | - |
-| MGnify | mgnify_human_gut<br>mgnify_human_oral<br>mgnify_cow_rumen<br>mgnify_pig_gut<br>mgnify_fish_gut<br>mgnify_marine | https://www.ebi.ac.uk/metagenomics/browse/genomes |
-
+| Source | DataBase | DataSet | Download URL |
+| - | - | - | - |
+| Prokaryotic | MGnify | mgnify_human_gut<br>mgnify_human_oral<br>mgnify_cow_rumen<br>mgnify_pig_gut<br>mgnify_fish_gut<br>mgnify_marine | https://www.ebi.ac.uk/metagenomics/browse/genomes |
+| Prokaryotic | GEM | GEM | https://portal.nersc.gov/GEM |
+| Prokaryotic | GMBC | GMBC-high<br>GMBC-medium | https://gmgc.embl.de/download.cgi |
+| Prokaryotic | BGI_human_oral | 4D-SZ cohort | https://db.cngb.org/search/project/CNP0000687 |
+| Prokaryotic | glacier | Glacier Microbiomes | https://www.biosino.org/node/project/detail/OEP003083 |
+| Viral | gutPhageDB | gutPhageDB | https://www.sanger.ac.uk/data/gut-phage-database |
+| Viral | IMGVR | IMG/VR | https://genome.jgi.doe.gov/portal/IMG_VR/IMG_VR.download.html |
+| Viral | MGV | Metagenomic Gut Virus | https:// portal.nersc.gov/MGV |
+| Viral | GVD | Gut Virome Database | https://bitbucket.org/MAVERICLab/gvd |
+| Viral | HuVirDB | Human Virome Database | http://opengut.ucsf.edu/HuVirDB-1.0.fasta.gz |
 
 ## Contacts
 
