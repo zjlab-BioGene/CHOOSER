@@ -48,6 +48,13 @@ For the Cas12 candidates, we predicted whether they are able to self-process pre
 
 `Output`: predicted wether the Cas12 candidates would self-process their pre-crRNAs.
 
+## Datasource
+
+| DataBase | DataSet | Download URL |
+| - | - | - |
+| MGnify | mgnify_human_gut/mgnify_human_oral/mgnify_cow_rumen/mgnify_pig_gut/mgnify_fish_gut/mgnify_marine | https://www.ebi.ac.uk/metagenomics/browse/genomes |
+
+
 ## Contacts
 
 qiliu@tongji.edu.cn, liwh@zhejianglab.com, liwh@tongji.edu.cn
