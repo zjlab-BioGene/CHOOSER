@@ -29,10 +29,8 @@ The model weights of CHOOSER and a minimum dataset to run CHOOSER are available 
 [example_data.zip](https://zenodo.org/records/13906238/files/example_data.zip?download=1)
 
 <pre>
-```shell
 #conda activate chooser
 python CasDiscovery -m models_weights/CasDiscovery -i example_data/suspicious.faa -o suspicious_pred.csv
-```
 </pre>
 
 ## Custom code for Colab Notebook
