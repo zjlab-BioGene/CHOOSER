@@ -4,7 +4,7 @@
 
 This repository hosts the custom code of **CHOOSER** (**C**as **HO**mlog **O**bserving and **SE**lf-processing sc**R**eening), a novel, effective and unified AI framework for alignment-free discovery of novel CRISPR-Cas systems with self-processing precursor CRISPR RNA (pre-crRNA) capability utilizing protein foundation models. 
 
-![Schematic diagram of the CHOOSER framework for identifying and functional screening of CRISPR-Cas systems with self-processing pre-crRNA capability](Figure_1-2.png)
+![Schematic diagram of the CHOOSER framework for identifying and functional screening of CRISPR-Cas systems with self-processing pre-crRNA capability](Figure_1.png)
 
 ## Model weights & example data
 
@@ -47,6 +47,10 @@ For the Cas12 candidates, we predicted whether they are able to self-process pre
 `Input`: Cas12 proteins in .fasta/.faa format.
 
 `Output`: predicted wether the Cas12 candidates would self-process their pre-crRNAs.
+
+## Citation
+
+Li, Wenhui, Xianyue Jiang, Wuke Wang, Liya Hou, Runze Cai, Yongqian Li, Qiuxi Gu et al. "Discovering CRISPR-Cas system with self-processing pre-crRNA capability by foundation models." bioRxiv (2024): 2024-03.
 
 ## Contacts
 
