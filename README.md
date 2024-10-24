@@ -26,6 +26,7 @@ CHOOSER is run on Python 3.9 and PyTorch 1.13.1. You can build a conda environme
 The model weights of CHOOSER and a minimum dataset to run CHOOSER are available in [Zenodo](https://zenodo.org/records/13906238) (DOI: 10.5281/zenodo.13906238). A small example dataset are also provided:
 
 [models_weights.zip](https://zenodo.org/records/13906238/files/models_weights.zip?download=1)
+
 [example_data.zip](https://zenodo.org/records/13906238/files/example_data.zip?download=1)
 
 <pre>
