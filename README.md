@@ -22,6 +22,19 @@ This repository hosts the custom code of **CHOOSER** (**C**as **HO**mlog **O**bs
 
 CHOOSER is run on Python 3.9 and PyTorch 1.13.1. You can build a conda environment for CHOOSER using this [script](https://github.com/zjlab-BioGene/CHOOSER/blob/main/env/env_install.sh).
 
+## Run CasDiscovery
+The model weights of CHOOSER and a minimum dataset to run CHOOSER are available in [Zenodo](https://zenodo.org/records/13906238) (DOI: 10.5281/zenodo.13906238). A small example dataset are also provided:
+
+[models_weights.zip](https://zenodo.org/records/13906238/files/models_weights.zip?download=1)
+[example_data.zip](https://zenodo.org/records/13906238/files/example_data.zip?download=1)
+
+<pre>
+```shell
+#conda activate chooser
+python CasDiscovery -m models_weights/CasDiscovery -i example_data/suspicious.faa -o suspicious_pred.csv
+```
+</pre>
+
 ## Custom code for Colab Notebook
 
 ### Step.1 Get suspected proteins near CRISPR arrays
