@@ -71,7 +71,7 @@ For the Cas12 candidates, we predicted whether they are able to self-process pre
 | Prokaryotic | glacier | Glacier Microbiomes | https://www.biosino.org/node/project/detail/OEP003083 |
 | Viral | gutPhageDB | gutPhageDB | https://www.sanger.ac.uk/data/gut-phage-database |
 | Viral | IMGVR | IMG/VR | https://genome.jgi.doe.gov/portal/IMG_VR/IMG_VR.download.html |
-| Viral | MGV | Metagenomic Gut Virus | https:// portal.nersc.gov/MGV |
+| Viral | MGV | Metagenomic Gut Virus | https://portal.nersc.gov/MGV |
 | Viral | GVD | Gut Virome Database | https://bitbucket.org/MAVERICLab/gvd |
 | Viral | HuVirDB | Human Virome Database | http://opengut.ucsf.edu/HuVirDB-1.0.fasta.gz |
 
@@ -81,4 +81,4 @@ Li, Wenhui, Xianyue Jiang, Wuke Wang, Liya Hou, Runze Cai, Yongqian Li, Qiuxi Gu
 
 ## Contacts
 
-qiliu@tongji.edu.cn, liwh@zhejianglab.com, liwh@tongji.edu.cn
+qiliu@tongji.edu.cn, liwh@zhejianglab.org, liwh@tongji.edu.cn
