@@ -77,7 +77,9 @@ For the Cas12 candidates, we predicted whether they are able to self-process pre
 
 ## Citation
 
-Li, Wenhui, Xianyue Jiang, Wuke Wang, Liya Hou, Runze Cai, Yongqian Li, Qiuxi Gu et al. "Discovering CRISPR-Cas system with self-processing pre-crRNA capability by foundation models." bioRxiv (2024): 2024-03.
+Li, Wenhui, Xianyue Jiang, Wuke Wang, Liya Hou, Runze Cai, Yongqian Li, Qiuxi Gu et al. "Discovering CRISPR-Cas system with self-processing pre-crRNA capability by foundation models." Nature Communications 15, no. 1 (2024): 10024.
+
+DOI: https://doi.org/10.1038/s41467-024-54365-0
 
 ## Contacts
 
