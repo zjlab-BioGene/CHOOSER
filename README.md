@@ -81,6 +81,8 @@ Li, Wenhui, Xianyue Jiang, Wuke Wang, Liya Hou, Runze Cai, Yongqian Li, Qiuxi Gu
 
 DOI: https://doi.org/10.1038/s41467-024-54365-0
 
+PMCID: PMC11576732
+
 ## Contacts
 
 qiliu@tongji.edu.cn, liwh@zhejianglab.org, liwh@tongji.edu.cn
