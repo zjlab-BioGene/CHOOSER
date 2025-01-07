@@ -23,6 +23,11 @@ This repository hosts the custom code of **CHOOSER** (**C**as **HO**mlog **O**bs
 CHOOSER is run on Python 3.9 and PyTorch 1.13.1. You can build a conda environment for CHOOSER using this [script](https://github.com/zjlab-BioGene/CHOOSER/blob/main/env/env_install.sh).
 
 ## Run CasDiscovery
+
+**Note: During the initial data upload to Zenodo, the file models_weights/CasDiscovery/pytorch_model.bin was mistakenly uploaded as models_weights/CasDiscovery/pytorch_model-001.bin. This issue has now been corrected, and the updated version of the model weight files with the correct filename is available here [10.5281/zenodo.14608475].**
+
+**Alternatively, you can still use the model weight files downloaded from [10.5281/zenodo.13906238]. Simply rename the file models_weights/CasDiscovery/pytorch_model-001.bin to models_weights/CasDiscovery/pytorch_model.bin.**
+
 The model weights of CHOOSER and a minimum dataset to run CHOOSER are available in [Zenodo](https://zenodo.org/records/13906238) (DOI: 10.5281/zenodo.13906238). A small example dataset are also provided:
 
 [models_weights.zip](https://zenodo.org/records/13906238/files/models_weights.zip)
