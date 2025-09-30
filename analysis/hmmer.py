@@ -8,7 +8,7 @@ import pandas as pd
 import argparse
 import shutil
 
-ref_hmm_pdir = '/home/wenhui.li/01.data/00.database/Cas/Profiles'
+ref_hmm_pdir = '/mnt/np2/database/CRISPRCas/data/Profiles'
 
 class HMMER():
     
@@ -80,20 +80,28 @@ class HMMER():
         hmm_df['Sample'] = [x.split('|').pop() for x in hmm_df['ORF']]
 
         # Coverages of aligments
-        def covs(df_sub):
-            df_sub['Cov_seq'] = len(set([x for sublst in [list(range(i,j)) 
-                for i,j in zip(df_sub['ali_from'], df_sub['ali_to']+1)] 
-                for x in sublst])) / df_sub['tlen']
-            df_sub['Cov_hmm'] = len(set([x for sublst in [list(range(i,j)) 
-                for i,j in zip(df_sub['hmm_from'], df_sub['hmm_to']+1)] 
-                for x in sublst])) / df_sub['qlen']
-            df_sub = df_sub[['Hmm','ORF','tlen','qlen','Eval','score',
-                            'Sample','Gene','Cov_seq','Cov_hmm']]
-            df_sub = df_sub.drop_duplicates()
-            return df_sub
+        # def covs(df_sub):
+        #     df_sub['Cov_seq'] = len(set([x for sublst in [list(range(i,j)) 
+        #         for i,j in zip(df_sub['ali_from'], df_sub['ali_to']+1)] 
+        #         for x in sublst])) / df_sub['tlen']
+        #     df_sub['Cov_hmm'] = len(set([x for sublst in [list(range(i,j)) 
+        #         for i,j in zip(df_sub['hmm_from'], df_sub['hmm_to']+1)] 
+        #         for x in sublst])) / df_sub['qlen']
+        #     df_sub = df_sub[['Hmm','ORF','tlen','qlen','Eval','score',
+        #                     'Sample','Gene','Cov_seq','Cov_hmm']]
+        #     df_sub = df_sub.drop_duplicates()
+        #     return df_sub
+        
+        # hmm_df = hmm_df.groupby(['Hmm','ORF']).apply(covs)
+        # hmm_df.reset_index(drop=True, inplace=True)
+        
+        hmm_df['Cov_seq'] = (hmm_df['ali_to'] - hmm_df['ali_from'] + 1)/hmm_df['tlen']
+        hmm_df['Cov_hmm'] = (hmm_df['hmm_to'] - hmm_df['hmm_from'] + 1)/hmm_df['qlen']
+        hmm_df = hmm_df[['Hmm','ORF','tlen','qlen','Eval','score',
+                        'Sample','Gene','Cov_seq','Cov_hmm']]
+        hmm_df = hmm_df.sort_values(by=['Hmm','ORF','Eval','score','Cov_hmm','Cov_seq'],
+                                    ascending=[True, True, True, False, False, False])
 
-        hmm_df = hmm_df.groupby(['Hmm','ORF']).apply(covs)
-        hmm_df.reset_index(drop=True, inplace=True)
         self.hmm_df = hmm_df.drop_duplicates()
         self.hmm_df.to_csv(self.args.out+'hmmer.tab', sep='\t', index=False)
 
@@ -105,4 +113,3 @@ def main():
 
 if __name__ == '__main__':
     sys.exit(main())
-
